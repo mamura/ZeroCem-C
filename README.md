@@ -1,4 +1,4 @@
-# Jogo Zero a Cem
+# 🎲 Jogo Zero a Cem
 O jogo consiste em o programa escolher um número secreto e os jogadores tentarem adivinhar qual seria esse número. 
 
 ## ⚙️ Funcionalidades do Sistema:
