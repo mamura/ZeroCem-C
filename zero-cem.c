@@ -85,8 +85,9 @@ printf("%d", secretNumber);
     
             if (kick == secretNumber) {
                 drawWinner(i);
+                kick = secretNumber;
 
-                continue;
+                break;
             }
 
             // Chute Fora do Range
@@ -94,7 +95,7 @@ printf("%d", secretNumber);
                 drawLooser(i);
                 kick = secretNumber;
 
-                continue;
+                break;
             }
 
             if (kick < secretNumber) {
@@ -104,5 +105,5 @@ printf("%d", secretNumber);
             }
         }
     }
-    
+
 }
